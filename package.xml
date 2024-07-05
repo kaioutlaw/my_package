@@ -3,8 +3,8 @@
 <package format="3">
   <name>my_package</name>
   <version>0.0.0</version>
-  <description>My first package</description>
-  <maintainer email="awihai@todo.todo">awihai</maintainer>
+  <description>My first Package</description>
+  <maintainer email="dev@todo.todo">Josh</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
@@ -12,9 +12,8 @@
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
-  <excec_depend>demo_nodes_cpp</exec_depend>
-  <excec_depend>demo_nodes_py</exec_depend>
-  
+  <exec_depend>demo_nodes_cpp</exec_depend>
+  <exec_depend>demo_nodes_py</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
